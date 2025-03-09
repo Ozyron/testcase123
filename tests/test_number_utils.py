@@ -33,5 +33,10 @@ class PrimeListTest(unittest.TestCase):
         is_prime = is_prime_list(prime_list)
         self.assertTrue(is_prime)
 
+    def test_large_non_prime_list(self):
+        prime_list = [100, 102, 104, 106, 108]
+        is_prime = is_prime_list(prime_list)
+        self.assertFalse(is_prime)
+
 if __name__ == '__main__':
     unittest.main()
