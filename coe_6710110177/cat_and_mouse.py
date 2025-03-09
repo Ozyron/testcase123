@@ -8,3 +8,4 @@ def cat_and_mouse(x: int, y: int, z: int) -> str:
         return "Cat B" 
     else:
         return "Mouse C" 
+
